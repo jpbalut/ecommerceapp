@@ -29,6 +29,6 @@ export const styles = StyleSheet.create({
     padding: 20,
     textShadowColor: "rgba(0,0,0,0.75)",
     textShadowOffset: { width: -1, height: 1 },
-    textSadowRadius: 6,
+    textShadowRadius: 6,
   },
 });
