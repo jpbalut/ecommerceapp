@@ -17,10 +17,15 @@ export const styles = StyleSheet.create({
     elevation: 5,
     borderRadius: 10,
   },
-  imageBackground: {
+  contentContainer: {
     width: "100%",
     height: 150,
     justifyContent: "flex-end",
+  },
+  icon: {
+    alignSelf: "flex-end",
+    top: 30,
+    right: 40,
   },
   categoryName: {
     fontSize: 20,

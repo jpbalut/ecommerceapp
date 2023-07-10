@@ -1,0 +1,419 @@
+[
+    {
+        "id": 1,
+        "categoryId": 1,
+        "name": "PetSitter a Domicilio",
+        "description": "Pet Sitter por hora.",
+        "price": 5000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 2,
+        "categoryId": 1,
+        "name": "PetSitter en tu Hogar",
+        "description": "Pet Sitter por hora, en la comodidad de tu hogar",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Paseo",
+            "Caniles con supervisión"
+        ],
+        "rating": 5,
+        "stock": 1
+    },
+    {
+        "id": 3,
+        "categoryId": 1,
+        "name": "PetSitter a Domicilio con Entrenamiento",
+        "description": "Correa 3 metros para mejores paseos y mayor conexión de tu perro con el ambiente",
+        "price": 15000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 4,
+        "categoryId": 1,
+        "name": "PetSitter en tu Hogar + Entrenamiento",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 5,
+        "categoryId": 2,
+        "name": "Paseos a domicilio, personalizado",
+        "description": "Paseo por hora",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 6,
+        "categoryId": 2,
+        "name": "Paseos a domicilio, grupales",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 7,
+        "categoryId": 2,
+        "name": "Paseos a domicilio, personalizado + entrenamiento",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 8,
+        "categoryId": 3,
+        "name": "Paseo Seguro",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 9,
+        "categoryId": 3,
+        "name": "Reactividad",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 10,
+        "categoryId": 3,
+        "name": "Comandos Básicos",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 11,
+        "categoryId": 3,
+        "name": "Obediencia",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 12,
+        "categoryId": 3,
+        "name": "Trucos avanzados",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 13,
+        "categoryId": 4,
+        "name": "Correas",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 14,
+        "categoryId": 5,
+        "name": "Arnes",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 15,
+        "categoryId": 4,
+        "name": "Clickers",
+        "description": "Pet Sitter",
+        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    }
+]
