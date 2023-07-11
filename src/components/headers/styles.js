@@ -21,9 +21,30 @@ export const styles = StyleSheet.create({
 
     elevation: 4,
   },
+  containerTablet: {
+    marginTop: StatusBar.currentHeight,
+    backgroundColor: COLORS.primary,
+    height: 100,
+    justifyContent: "center",
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.23,
+    shadowRadius: 2.62,
+    elevation: 4,
+  },
   title: {
     fontSize: 20,
     color: COLORS.text,
-    fontWeight: "bold",
+    // fontWeight: "bold",
+    fontFamily: "Inter-Bold",
+  },
+  titleTablet: {
+    fontSize: 35,
+    color: COLORS.text,
+    fontFamily: "Inter-Bold",
   },
 });

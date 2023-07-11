@@ -23,6 +23,11 @@ export const styles = StyleSheet.create({
     height: 150,
     justifyContent: "flex-end",
   },
+  imageBackgroundTablet: {
+    width: "100%",
+    height: 250,
+    justifyContent: "flex-end",
+  },
   icon: {
     alignSelf: "flex-end",
     top: 30,
@@ -30,12 +35,20 @@ export const styles = StyleSheet.create({
   },
   categoryName: {
     fontSize: 20,
-    fontWeight: "bold",
+    fontFamily: "Inter-Bold",
     color: COLORS.white,
     padding: 20,
     textShadowColor: "rgba(0,0,0,0.75)",
     textShadowOffset: { width: -1, height: 1 },
     textShadowRadius: 6,
   },
-
+  categoryNameTablet: {
+    fontSize: 35,
+    fontFamily: "Inter-Bold",
+    color: COLORS.white,
+    padding: 20,
+    textShadowColor: "rgba(0,0, 0, 0.75)",
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 6,
+  },
 });
