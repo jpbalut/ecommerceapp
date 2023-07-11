@@ -5,7 +5,7 @@ import { COLORS } from "../../themes";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginHorizontal: 10,
+    marginHorizontal: 15,
   },
   header: {
     flexDirection: "row",
@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
   goBack: {
     flexDirection: "row",
     alignItems: "center",
-    paddingVertical: 10,
+    paddingVertical: 15,
   },
   goBackText: {
     fontSize: 16,
@@ -31,4 +31,34 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   notFoundText: {},
+  clearIcon: {
+    position: "absolute",
+    zIndex: 2,
+    right: 5,
+  },
+  productContent: {
+    paddingVertical: 30,
+    gap: 15,
+  },
+  productContainer: {
+    backgroundColor: COLORS.background,
+    borderRadius: 10,
+    width: "45%",
+    marginHorizontal: 10,
+  },
+  productImage: {
+    width: "100%",
+    height: 150,
+  },
+  productDetail: {
+    padding: 10,
+    gap: 5,
+  },
+  productName: {
+    fontSize: 14,
+  },
+  productPrice: {
+    fontSize: 15,
+    fontWeight: "bold",
+  },
 });

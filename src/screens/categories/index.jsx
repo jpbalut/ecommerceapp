@@ -11,7 +11,14 @@ function Categories({ onSelectCategory }) {
         <FlatList
           data={CATEGORIES}
           style={styles.categoryContainer}
-          renderItem={({ item }) => <CategoryItem {...item} onSelectCategory={onSelectCategory} />}
+          renderItem={({ item }) => (
+            <CategoryItem
+              {...item}
+              onSelectCategory={() =>
+                onSelectCategory({ categoryId: item.id, color: item.backgroundColor })
+              }
+            />
+          )}
           contentContainerStyle={styles.listCategory}
           keyExtractor={(item) => item.id}
           showsVerticalScrollIndicator={false}

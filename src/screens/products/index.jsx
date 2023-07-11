@@ -1,13 +1,22 @@
 import { Ionicons } from "@expo/vector-icons";
 import { useState } from "react";
-import { View, Text, Button, TouchableOpacity, FlatList } from "react-native";
+import {
+  View,
+  Text,
+  Button,
+  TouchableOpacity,
+  FlatList,
+  Image,
+  ImageBackground,
+  TouchableOpacityBase,
+} from "react-native";
 
 import { styles } from "./styles";
 import { Input } from "../../components";
 import PRODUCTS from "../../constants/data/products.json";
 import { COLORS } from "../../themes";
 
-function Products({ onHandleGoBack, categoryId }) {
+function Products({ onHandleGoBack, categorySelected }) {
   const [search, setSearch] = useState("");
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [borderColor, setBorderColor] = useState(COLORS.primary);
@@ -19,9 +28,8 @@ function Products({ onHandleGoBack, categoryId }) {
   const onHandlerFocus = () => {};
 
   const filteredProductsByCategory = PRODUCTS.filter(
-    (product) => product.categoryId === categoryId
+    (product) => product.categoryId === categorySelected.categoryId
   );
-
   const filterBySearch = (query) => {
     let updatedProductList = [...filteredProductsByCategory];
     updatedProductList = updatedProductList.filter((product) => {
@@ -51,16 +59,40 @@ function Products({ onHandleGoBack, categoryId }) {
         />
         {/* <Ionicons name="search-circle" size={40} color={COLORS.text} /> */}
         {search.length > 0 && (
-          <Ionicons onPress={clearSearch} name="close-circle" size={40} color={COLORS.black} />
+          <Ionicons
+            style={styles.clearIcon}
+            onPress={clearSearch}
+            name="close-circle"
+            size={25}
+            color={COLORS.black}
+          />
         )}
       </View>
       <FlatList
-        style={styles.productos}
+        style={styles.products}
         data={search.length > 0 ? filteredProducts : filteredProductsByCategory}
-        renderItem={({ item }) => <Text>{item.name}</Text>}
+        renderItem={({ item }) => (
+          <TouchableOpacity onPress={() => null} style={styles.productContainer}>
+            <ImageBackground
+              source={{ uri: item.image }}
+              style={[styles.productImage, { backgroundColor: categorySelected.color }]}
+              resizeMethod="resize"
+              resizeMode="contain"
+            />
+            <View style={styles.productDetail}>
+              <Text style={styles.productName} numberOfLines={1} ellipsizeMode="tail">
+                {item.name}
+              </Text>
+              <Text style={styles.productPrice}>{`${item.currency.code}$${item.price}`}</Text>
+            </View>
+          </TouchableOpacity>
+        )}
+        contentContainerStyle={styles.productContent}
         keyExtractor={(item) => item.id.toString()}
+        numColumns={2}
+        showsVerticalScrollIndicator={false}
       />
-      {filteredProducts.length === 0 && search.length>0 && (
+      {filteredProducts.length === 0 && search.length > 0 && (
         <View style={styles.notFound}>
           <Text style={styles.notFoundText}> No Products Found</Text>
         </View>

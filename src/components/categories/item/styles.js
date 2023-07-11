@@ -16,6 +16,7 @@ export const styles = StyleSheet.create({
     shadowRadius: 3.84,
     elevation: 5,
     borderRadius: 10,
+    // width: '40%'
   },
   contentContainer: {
     width: "100%",
@@ -36,4 +37,5 @@ export const styles = StyleSheet.create({
     textShadowOffset: { width: -1, height: 1 },
     textShadowRadius: 6,
   },
+
 });
