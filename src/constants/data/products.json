@@ -3,7 +3,7 @@
         "id": 1,
         "categoryId": 1,
         "name": "PetSitter a Domicilio",
-        "description": "Pet Sitter por hora.",
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",
         "price": 5000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
@@ -11,7 +11,27 @@
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+        ],
+        "rating": 5,
+        "stock": 2
+    },
+    {
+        "id": 2,
+        "categoryId": 1,
+        "name": "PetSitter fuera de tu Hogar",
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
@@ -25,39 +45,13 @@
             "Caniles"
         ],
         "rating": 5,
-        "stock": 2
-    },
-    {
-        "id": 2,
-        "categoryId": 1,
-        "name": "PetSitter en tu Hogar",
-        "description": "Pet Sitter por hora, en la comodidad de tu hogar",
-        "price": 10000,
-        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
-        "currency": {
-            "symbol": "$",
-            "code": "CLP",
-            "name": "Chilean Pesos"
-        },
-        "address": "Avenida siempre viva 123",
-        "tags": [
-            "Perros Grandes",
-            "Perros Medianos",
-            "Perros Chicos"
-        ],
-        "features": [
-            "Paseo",
-            "Caniles con supervisión"
-        ],
-        "rating": 5,
         "stock": 1
     },
     {
         "id": 3,
         "categoryId": 1,
         "name": "PetSitter a Domicilio con Entrenamiento",
-        "description": "Correa 3 metros para mejores paseos y mayor conexión de tu perro con el ambiente",
-        "price": 15000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 15000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
@@ -71,11 +65,6 @@
             "Perros Chicos"
         ],
         "features": [
-            "Patio",
-            "Piscina",
-            "Actividades",
-            "Paseo incluido",
-            "Caniles"
         ],
         "rating": 5,
         "stock": 2
@@ -83,16 +72,14 @@
     {
         "id": 4,
         "categoryId": 1,
-        "name": "PetSitter en tu Hogar + Entrenamiento",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "name": "PetSitter fuera de tu hogar + Entrenamiento",
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 20000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
@@ -110,83 +97,68 @@
     },
     {
         "id": 5,
-        "categoryId": 2,
+        "categoryId": 1,
         "name": "Paseos a domicilio, personalizado",
-        "description": "Paseo por hora",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
             "Perros Chicos"
         ],
         "features": [
-            "Patio",
-            "Piscina",
-            "Actividades",
-            "Paseo incluido",
-            "Caniles"
+            "Caniles",
+            "Correa Larga"
         ],
         "rating": 5,
         "stock": 2
     },
     {
         "id": 6,
-        "categoryId": 2,
+        "categoryId": 1,
         "name": "Paseos a domicilio, grupales",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
             "Perros Chicos"
         ],
         "features": [
-            "Patio",
-            "Piscina",
-            "Actividades",
-            "Paseo incluido",
-            "Caniles"
+            "Correa Corta"
         ],
         "rating": 5,
         "stock": 2
     },
     {
         "id": 7,
-        "categoryId": 2,
+        "categoryId": 1,
         "name": "Paseos a domicilio, personalizado + entrenamiento",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
             "Perros Chicos"
         ],
         "features": [
-            "Patio",
-            "Piscina",
-            "Actividades",
-            "Paseo incluido",
+            "Entrenamiento Paseo Sin Tirones",
+            "Entrenamiento Sociabilización",
             "Caniles"
         ],
         "rating": 5,
@@ -196,26 +168,19 @@
         "id": 8,
         "categoryId": 3,
         "name": "Paseo Seguro",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
             "Perros Chicos"
         ],
         "features": [
-            "Patio",
-            "Piscina",
-            "Actividades",
-            "Paseo incluido",
-            "Caniles"
         ],
         "rating": 5,
         "stock": 2
@@ -224,26 +189,19 @@
         "id": 9,
         "categoryId": 3,
         "name": "Reactividad",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
             "Perros Chicos"
         ],
         "features": [
-            "Patio",
-            "Piscina",
-            "Actividades",
-            "Paseo incluido",
-            "Caniles"
         ],
         "rating": 5,
         "stock": 2
@@ -252,26 +210,22 @@
         "id": 10,
         "categoryId": 3,
         "name": "Comandos Básicos",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
             "Perros Chicos"
         ],
         "features": [
-            "Patio",
-            "Piscina",
-            "Actividades",
-            "Paseo incluido",
-            "Caniles"
+            "Sit",
+            "Down",
+            "Stay"
         ],
         "rating": 5,
         "stock": 2
@@ -280,26 +234,22 @@
         "id": 11,
         "categoryId": 3,
         "name": "Obediencia",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
             "Perros Chicos"
         ],
         "features": [
-            "Patio",
-            "Piscina",
-            "Actividades",
-            "Paseo incluido",
-            "Caniles"
+            "Llamado",
+            "Sit con distractores",
+            "Down con distractores"
         ],
         "rating": 5,
         "stock": 2
@@ -308,15 +258,13 @@
         "id": 12,
         "categoryId": 3,
         "name": "Trucos avanzados",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
@@ -336,15 +284,13 @@
         "id": 13,
         "categoryId": 4,
         "name": "Correas",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
@@ -364,15 +310,13 @@
         "id": 14,
         "categoryId": 5,
         "name": "Arnes",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
         "tags": [
             "Perros Grandes",
             "Perros Medianos",
@@ -392,15 +336,63 @@
         "id": 15,
         "categoryId": 4,
         "name": "Clickers",
-        "description": "Pet Sitter",
-        "price": 10000,
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
         "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
         "currency": {
             "symbol": "$",
             "code": "CLP",
             "name": "Chilean Pesos"
         },
-        "address": "Avenida siempre viva 123",
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    }, {
+        "id": 16,
+        "categoryId": 1,
+        "name": "Baño",
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
+        "tags": [
+            "Perros Grandes",
+            "Perros Medianos",
+            "Perros Chicos"
+        ],
+        "features": [
+            "Patio",
+            "Piscina",
+            "Actividades",
+            "Paseo incluido",
+            "Caniles"
+        ],
+        "rating": 5,
+        "stock": 2
+    } , {
+        "id": 17,
+        "categoryId": 1,
+        "name": "Peluquería",
+        "description": "Pet Sitter por hora. Con un pet sitter podrás salir de tu hogar sin tener que volver a ve rlos destrozos o sorpresas que tu mascota podría dejar. Tu mascota se sentirá acompañada y no llorara por lo que vecinos no alegaran. Esto es de prueba así que no se que más poner.",        "price": 10000,
+        "image": "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-c91d9.appspot.com/o/products%2Fsamsung-galaxy-s23-ultra.png?alt=media&token=64c9c470-e5b9-44d0-939e-38bad88555c5",
+        "currency": {
+            "symbol": "$",
+            "code": "CLP",
+            "name": "Chilean Pesos"
+        },
         "tags": [
             "Perros Grandes",
             "Perros Medianos",

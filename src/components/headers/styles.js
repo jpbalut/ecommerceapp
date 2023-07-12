@@ -38,9 +38,12 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 20,
-    color: COLORS.text,
+    color: COLORS.white,
     // fontWeight: "bold",
     fontFamily: "Inter-Bold",
+    textShadowColor: "rgba(0,0,0,0.75)",
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 6,
   },
   titleTablet: {
     fontSize: 35,

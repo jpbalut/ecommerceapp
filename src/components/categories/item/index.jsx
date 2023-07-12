@@ -1,5 +1,5 @@
 import { Ionicons } from "@expo/vector-icons";
-import { TouchableHighlight, Text, View, useWindowDimensions } from "react-native/";
+import { TouchableHighlight, Text, View } from "react-native/";
 
 import { styles } from "./styles";
 import { COLORS } from "../../../themes";
@@ -15,6 +15,7 @@ const CategoryItem = ({
 }) => {
   // const { width, height } = useWindowDimensions();
   // const isTablet = width > 650;
+
   return (
     <TouchableHighlight
       onPress={() => onSelectCategory(id)}
