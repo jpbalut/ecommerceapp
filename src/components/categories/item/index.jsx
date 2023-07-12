@@ -11,21 +11,22 @@ const CategoryItem = ({
   iconName,
   // backgroundImage,
   onSelectCategory,
+  style,
 }) => {
-  const { width, height } = useWindowDimensions();
-  const isTablet = width > 650;
+  // const { width, height } = useWindowDimensions();
+  // const isTablet = width > 650;
   return (
     <TouchableHighlight
       onPress={() => onSelectCategory(id)}
       style={[styles.container, { backgroundColor }]}
       underlayColor={COLORS.primary}>
-      <View style={isTablet ? styles.imageBackgroundTablet : styles.contentContainer}>
+      <View style={[styles.contentContainer, style]}>
         <Ionicons name={iconName} size={100} color="black" style={styles.icon} />
         {/* <ImageBackground
         source={{ uri: backgroundImage }}
         style={styles.imageBackground}
         resizeMode="cover"> */}
-        <Text style={isTablet ? styles.categoryNameTablet : styles.categoryName}>{name}</Text>
+        <Text style={styles.categoryName}>{name}</Text>
       </View>
       {/* </ImageBackground> */}
     </TouchableHighlight>
